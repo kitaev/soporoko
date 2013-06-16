@@ -1,11 +1,6 @@
-update=05-Jun-13 00:21:51
+update=16-Jun-13 15:05:04
 version=1
-last_client=kicad
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -26,7 +21,6 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -43,10 +37,21 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
+LibName17=lqfp48
+LibDir=
+#LibName31=st-microelectronics
+#LibName32=microchip_can
+[general]
+version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=
-NetFmtName=
+NetFmtName=PcbnewAdvanced
 RptD_X=0
 RptD_Y=100
 RptLab=1
@@ -82,8 +87,4 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-#LibName31=st-microelectronics
-#LibName32=microchip_can
-LibName33=stm8s208cbt
-[general]
-version=1
+LibName31=rj458
